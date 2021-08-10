@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mergavar</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- OwlCaroucel CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fount awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Star Header -->
+  <header id="header" dir="rtl">
+    <!-- Location -->
+    <div class="sprip d-flex justify-content-between px-4 py-1 bg-light">
+      <p class="font-Ziba font-size-14 text-black-50 m-0 bg-light">موقعیت مکانی : آذربایجان غربی - ارومیه - بخش -
+        سیلوانا - محاله مرگور</p>
+      <div class="font-Ziba font-size-14">
+        <a href="#" class="px-3 border-left text-dark border-right">ورود</a>
+      </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-color-second navbar-dark">
+      <a class="navbar-brand" href="">فروشگاه موبایل</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-auto font-Yekan">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">خانه</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">مقالات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">اخبار</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">درباره ما</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">جدید</a>
+          </li>
+        </ul>
+        <form action="#" class="font-size-14 font-Nazanin">
+          <a href="#" class="py-2 rounded-pill bg-color-primary">
+            <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+            <span style="font-family:  monospace;" class="px-3 py-2 rounded-pill text-dark bg-light">8</span>
+          </a>
+        </form>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+  </header>
+  <!-- End Header -->
+  <!-- Star Main -->
+  <main id="main-site">
+    <!-- Shopping cart Section -->
+    <section id="cart" class="py-3">
+      <div class="container-fluid w-75">
+        <h6 class="font-Yekan font-size-20">لیست خرید</h6>
+        <!-- Shopping Cart Item -->
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="sub-total text-center mt-2 border">
+              <h6 class="font-size-14 font-Nazanin text-success py-3">حق شما از خرید آنلاین ارسال رایگان است<i
+                  class="fas fa-check"></i></h6>
+              <div class="border-top py-4">
+                <h5 class="font-Nazanin font-size-20">مجموع (2 عدد) &nbsp;<span class="text-danger" dir="ltr">$<samp
+                      class="text-danger font-baloo" id="deel-price">16 250 000</samp></span></h5>
+                <button class="btn btn-warning mt-3 font-Nazanin w-50" type="submit">پرداخت</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <!-- Cart Item -->
+            <div dir="rtl" class="row border-top py-3 mr-3">
+              <div class="col-sm-2">
+                <img src="./assets/products/14.png" alt="Cart" class="img-fluid" style="height: 120px;">
+              </div>
+              <div class="col-sm-8">
+                <h5 class="font-size-20">Apple iphone 5s</h5>
+                <small>برند اپل</small>
+                <!-- Product Rating -->
+                <div class="d-flex">
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <a href="#" class="px-2 font-rale font-size-14">20,589 رای مثبت</a>
+                </div>
+                <!-- !Product Rating -->
+                <!-- Product Qty -->
+                <div class="qty d-flex pt-2">
+                  <div class="d-flex font-Yekan w-25">
+                    <button data-id="pro1" class="qty-down border bg-light"><i class="fas fa-angle-down"
+                        aria-hidden="true"></i></button>
+                    <input data-id="pro1" type="text" name="" id=""
+                      class="qty_input border px-2 w-100 bg-light text-center" disabled value="1" placeholder="1">
+                    <button data-id="pro1" class="qty-up border bg-light"><i class="fas fa-angle-up"
+                        aria-hidden="true"></i></button>
+                  </div>
+                  <button class="btn font-Nazanin text-danger px-3 bg-white" type="submit">حذف</button>
+                  <button class="btn font-Nazanin text-danger bg-white" type="submit">لیست خرید بعدی</button>
+                </div>
+                <!-- !Product Qty -->
+              </div>
+              <!-- Price -->
+              <div class="col-sm-2 text-left">
+                <div dir="ltr" class="font-size-20 text-danger font-baloo">
+                  $<span>4 520 000</span>
+                </div>
+              </div>
+              <!-- Price -->
+            </div>
+            <!-- !Cart Item -->
+            <!-- Cart Item -->
+            <div dir="rtl" class="row border-top py-3 mr-3">
+              <div class="col-sm-2">
+                <img src="./assets/products/15.png" alt="Cart" class="img-fluid" style="height: 120px;">
+              </div>
+              <div class="col-sm-8">
+                <h5 class="font-size-20">Apple iphone 5s</h5>
+                <small>برند اپل</small>
+                <!-- Product Rating -->
+                <div class="d-flex">
+                  <div class="rating text-warning font-size-12">
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="fas fa-star"></i></span>
+                    <span><i class="far fa-star"></i></span>
+                  </div>
+                  <a href="#" class="px-2 font-rale font-size-14">20,589 رای مثبت</a>
+                </div>
+                <!-- !Product Rating -->
+                <!-- Product Qty -->
+                <div class="qty d-flex pt-2">
+                  <div class="d-flex font-Yekan w-25">
+                    <button data-id="pro2" class="qty-down border bg-light"><i class="fas fa-angle-down"
+                        aria-hidden="true"></i></button>
+                    <input data-id="pro2" type="text" name="" id=""
+                      class="qty_input border px-2 w-100 bg-light text-center" disabled value="1" placeholder="1">
+                    <button data-id="pro2" class="qty-up border bg-light"><i class="fas fa-angle-up"
+                        aria-hidden="true"></i></button>
+                  </div>
+                  <button class="btn font-Nazanin text-danger px-3 bg-white" type="submit">حذف</button>
+                  <button class="btn font-Nazanin text-danger bg-white" type="submit">لیست خرید بعدی</button>
+                </div>
+                <!-- !Product Qty -->
+              </div>
+              <div class="col-sm-2 text-left">
+                <div dir="ltr" class="font-size-20 text-danger font-baloo">
+                  $<span>4 520 000</span>
+                </div>
+              </div>
+            </div>
+            <!-- !Cart Item -->
+          </div>
+        </div>
+        <!-- !Shopping Cart Item -->
+
+      </div>
+    </section>
+    <!-- !Shopping cart Section -->
+    <!-- Empty Shopping cart Section -->
+    <section id="cart" class="py-3">
+      <div class="container-fluid w-75">
+        <h6 class="font-Yekan font-size-20">لیست خرید</h6>
+        <!-- Shopping Cart Item -->
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="sub-total text-center mt-2 border">
+              <h6 class="font-size-14 font-Nazanin text-success py-3">حق شما از خرید آنلاین ارسال رایگان است<i
+                  class="fas fa-check"></i></h6>
+              <div class="border-top py-4">
+                <h5 class="font-Nazanin font-size-20">0</h5>
+                <button class="btn btn-warning mt-3 font-Nazanin w-50" type="submit" disabled>پرداخت</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-sm-9">
+            <!-- Empty Cart Item -->
+            <div class="row border-top py-3 mr-3">
+              <div class="col-sm-12 text-center py-2">
+                <img src="./assets/blogs/empty_cart.png" alt="Empty Cart" class="img-fluid" style="height: 200px;">
+                <p class="font-Nazanin text-size-16 text-black-50">سبد خرید خالی است</p>
+              </div>
+            </div>
+            <!-- !Empty Cart Item -->
+          </div>
+        </div>
+        <!-- !Shopping Cart Item -->
+
+      </div>
+    </section>
+    <!-- !Empty Shopping cart Section -->
+    <!-- WhishList cart Section -->
+    <div class="container-fluid w-75">
+      <h6 class="font-Yekan font-size-20">لیست خرید بعدی</h6>
+      <!-- whishlist Cart Item -->
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-9">
+          <!-- Cart Item -->
+          <div dir="rtl" class="row border-top py-3 mr-3">
+            <div class="col-sm-2">
+              <img src="./assets/products/14.png" alt="Cart" class="img-fluid" style="height: 120px;">
+            </div>
+            <div class="col-sm-8">
+              <h5 class="font-size-20">Apple iphone 5s</h5>
+              <small>برند اپل</small>
+              <!-- Product Rating -->
+              <div class="d-flex">
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <a href="#" class="px-2 font-rale font-size-14">20,589 رای مثبت</a>
+              </div>
+              <!-- !Product Rating -->
+              <!-- Product Qty -->
+              <div class="qty d-flex pt-2">
+                <button class="btn font-Nazanin text-danger px-3 bg-white" type="submit">حذف</button>
+                <button class="btn font-Nazanin text-info bg-white" type="submit">لیست خرید فعلی</button>
+              </div>
+              <!-- !Product Qty -->
+            </div>
+            <!-- Price -->
+            <div class="col-sm-2 text-left">
+              <div dir="ltr" class="font-size-20 text-danger font-baloo">
+                $<span>4 520 000</span>
+              </div>
+            </div>
+            <!-- Price -->
+          </div>
+          <!-- !Cart Item -->
+          <!-- Cart Item -->
+          <div dir="rtl" class="row border-top py-3 mr-3">
+            <div class="col-sm-2">
+              <img src="./assets/products/15.png" alt="Cart" class="img-fluid" style="height: 120px;">
+            </div>
+            <div class="col-sm-8">
+              <h5 class="font-size-20">Apple iphone 5s</h5>
+              <small>برند اپل</small>
+              <!-- Product Rating -->
+              <div class="d-flex">
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <a href="#" class="px-2 font-rale font-size-14">20,589 رای مثبت</a>
+              </div>
+              <!-- !Product Rating -->
+              <!-- Product Qty -->
+              <div class="qty d-flex pt-2">
+                <button class="btn font-Nazanin text-danger px-3 bg-white" type="submit">حذف</button>
+                <button class="btn font-Nazanin text-info bg-white" type="submit">لیست خرید فعلی</button>
+              </div>
+              <!-- !Product Qty -->
+            </div>
+            <div class="col-sm-2 text-left">
+              <div dir="ltr" class="font-size-20 text-danger font-baloo">
+                $<span>4 520 000</span>
+              </div>
+            </div>
+          </div>
+          <!-- !Cart Item -->
+        </div>
+        <div class="col-sm-1">
+        </div>
+        <!-- !whishlist Cart Item -->
+      </div>
+      <!-- !WhishList cart Section -->
+    </div>
+    <!-- !WhishList cart Section -->
+
+    <!-- Empty WhishList cart Section -->
+    <div class="container-fluid w-75">
+      <h6 class="font-Yekan font-size-20">لیست خرید بعدی</h6>
+      <!-- whishlist Cart Item -->
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-9">
+          <!-- Empty Cart Item -->
+          <div class="row border-top py-3 mr-3">
+            <div class="col-sm-12 text-center py-2">
+              <img src="./assets/blogs/empty_cart.png" alt="Empty Cart" class="img-fluid" style="height: 200px;">
+              <p class="font-Nazanin text-size-16 text-black-50">سبد خرید بعدی خالی است</p>
+            </div>
+          </div>
+          <!-- !Empty Cart Item -->
+        </div>
+        <div class="col-sm-1">
+        </div>
+        <!-- !whishlist Cart Item -->
+      </div>
+      <!-- !WhishList cart Section -->
+    </div>
+    <!-- Empty WhishList Cart -->
+    <!-- New Phone -->
+    <section id="new-phones">
+      <div class="container">
+        <h4 class="font-Nazanin font-size-20 py-3">جدید ترین موبایل ها</h4>
+        <hr>
+        <!-- Owl Carousel -->
+        <div class="owl-carousel owl-theme">
+          <div class="item py-2 bg-light">
+            <div class="product font-yekan">
+              <a href="#">
+                <img src="./assets/products/15.png" alt="Mobile" class="img-fluid">
+              </a>
+              <div class="text-center">
+                <h6>Apple Iphone 7</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$6 500 000</span>
+                </div>
+                <button class="btn btn-warning font-size-12">افزودن به سبد کالا</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2 bg-light">
+            <div class="product font-yekan">
+              <a href="#">
+                <img src="./assets/products/14.png" alt="Mobile" class="img-fluid">
+              </a>
+              <div class="text-center">
+                <h6>Apple Iphone 5</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$4 790 000</span>
+                </div>
+                <button class="btn btn-warning font-size-12">افزودن به سبد کالا</button>
+              </div>
+            </div>
+          </div>
+          <div class="item py-2 bg-light">
+            <div class="product font-yekan">
+              <a href="#">
+                <img src="./assets/products/13.png" alt="Mobile" class="img-fluid">
+              </a>
+              <div class="text-center">
+                <h6>Apple Iphone 10</h6>
+                <div class="rating text-warning font-size-12">
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="fas fa-star"></i></span>
+                  <span><i class="far fa-star"></i></span>
+                </div>
+                <div class="price py-2">
+                  <span>$13 900 000</span>
+                </div>
+                <button class="btn btn-warning font-size-12">افزودن به سبد کالا</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- !Owl Carousel -->
+      </div>
+    </section>
+    <!-- !New Phone -->
+  </main>
+  <!-- End Header -->
+  <!-- Star Footer -->
+  <footer dir="rtl" id="footer" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-12">
+          <h4 class="font-Nazanin">فروشگاه موبایل</h4>
+          <p class="font-size-14 font-Yekan text-white-50">نت و ظاهر متن باشد. معمولا طراحان گرافیک برای
+            صفحه‌آرایی، نخست از متن‌های آزمایشی و بی‌معنی استفاده می‌کنند تا صرفا به مشتری </p>
+        </div>
+        <div class="col-lg-4 col-12">
+          <h4 class="font-Yekan font-size-20">ارتباط با ما </h4>
+          <form action="" class="form-row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="ایمیل">
+            </div>
+            <div class="col">
+              <button class="btn btn-primary mb-2" type="submit">ارسال</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4 class="font-size-20 font-Yekan">درباره ما</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">درباره ما</a>
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">راه های ارتباط با ما</a>
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">همکاری با ما</a>
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">آدرس</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-12">
+          <h4 class="font-size-20 font-Yekan">سایت ما</h4>
+          <div class="d-flex flex-column flex-wrap">
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">صفحه اصلی</a>
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">صفحه اطلاعات</a>
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">صفحه داشبورد</a>
+            <a href="#" class="font-Yekan font-size-14 text-white-50 pb-1">برند ها</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright text-center bg-dark text-white py-2">
+    <p class="font-Yekan font-size-14">طراحی شده در 2021 توسط <a href="#" class="color-second">هژار نعمتی</a>&copy;</p>
+  </div>
+  <!-- End Footer -->
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+  integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- OwlCalousel js file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+  integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- isotop plugin cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+  integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./index.js"></script>
+
+</html>

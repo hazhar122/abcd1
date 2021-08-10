@@ -1,0 +1,147 @@
+body {
+   /* direction: rtl; */
+   text-align: right;
+}
+@font-face {
+   font-family: "Nazanin";
+   src: url("fonts/BNazanin.eot");
+   src: url("webfont.eot?#iefix") format("embedded-opentype"),
+      url("fonts/BNazanin.woff2") format("woff2"), url("fonts/BNazanin.woff") format("woff"),
+      url("fonts/BNazanin.ttf") format("truetype");
+}
+@font-face {
+   font-family: "Ziba";
+   src: url("fonts/BZiba.eot");
+   src: url("webfont.eot?#iefix") format("embedded-opentype"),
+      url("fonts/BZiba.woff2") format("woff2"), url("fonts/BZiba.woff") format("woff"),
+      url("fonts/BZiba.ttf") format("truetype");
+}
+@font-face {
+   font-family: "Koodak";
+   src: url("fonts/BKoodakOutline.eot");
+   src: url("webfont.eot?#iefix") format("embedded-opentype"),
+      url("fonts/BKoodakOutline.woff2") format("woff2"),
+      url("fonts/BKoodakOutline.woff") format("woff"),
+      url("fonts/BKoodakOutline.ttf") format("truetype");
+}
+@font-face {
+   font-family: "Yekan";
+   src: url("fonts/BYekan.eot");
+   src: url("webfont.eot?#iefix") format("embedded-opentype"),
+      url("fonts/BYekan.woff2") format("woff2"), url("fonts/BYekan.woff") format("woff"),
+      url("fonts/BYekan.ttf") format("truetype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&family=Raleway&family=Rubik&display=swap");
+
+/* Fonts */
+.font-Nazanin {
+   font-family: "Nazanin";
+}
+.font-Ziba {
+   font-family: "Ziba";
+}
+.font-Koodak {
+   font-family: "Koodak";
+}
+.font-Yekan {
+   font-family: "Yekan";
+}
+.font-rale {
+   font-family: "Raleway", sans-serif;
+}
+.font-baloo {
+   font-family: "Baloo Thambi 2", cursive;
+}
+.font-rubik {
+   font-family: "Rubik", sans-serif;
+}
+/* Colors */
+.color-primary {
+   color: #003859;
+}
+.color-second {
+   color: #00a5c4;
+}
+.color-yellow {
+   color: #ffd289;
+}
+.bg-color-primary {
+   background-color: #003859;
+}
+.bg-color-second {
+   background-color: #00a5c4;
+}
+.bg-color-yellow {
+   background-color: #ffd289;
+}
+.text-black-50 {
+   color: #212121;
+}
+.text-white-50 {
+   color: rgb(192, 192, 192);
+}
+/* Font Sizing */
+.font-size-12 {
+   font-size: 12px;
+}
+.font-size-14 {
+   font-size: 14px;
+}
+.font-size-16 {
+   font-size: 16px;
+}
+.font-size-20 {
+   font-size: 20px;
+}
+/* Top Sale */
+#top-sale .owl-carousel .item .product a {
+   overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+   transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+   transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+   position: absolute;
+   top: 5%;
+   outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+   left: 0;
+}
+#top-sale
+   .owl-carousel
+   .owl-nav
+   button.owl-prev
+   span
+   #top-sale
+   .owl-carousel
+   .owl-nav
+   button.owl-next
+   span {
+   font-style: 35px;
+   color: #003859;
+   padding: 0 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next {
+   left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+   margin-right: -4rem;
+}
+
+/* Special Price */
+#special-price .grid .grid-item {
+   margin-right: 1.2rem;
+   margin-top: 1rem;
+}
+#special-price,
+#banner_adds,
+#new-phones,
+#blogs,
+#footer {
+   margin-top: 2rem;
+}
